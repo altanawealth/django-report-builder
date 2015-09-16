@@ -10,6 +10,7 @@ class Migration(migrations.Migration):
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
         ('contenttypes', '0001_initial'),
+        ('account', '0003_auto_20150107_1224'),
     ]
 
     operations = [
